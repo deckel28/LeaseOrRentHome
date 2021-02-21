@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LeaseOrRentHome: Dinara Sharipova</string>
+    <string name="apt">Apartment</string>
+    <string name="detachedhome">Detached Home</string>
+    <string name="semidet">Semi-detached Home</string>
+    <string name="condo">Condominium apartment</string>
+    <string name="townhouse">Town house</string>
+    <string name="payment_option">Choose a payment option</string>
+    <string name="apt1">738 Bay Street: $800,000</string>
+    <string name="apt1_price">$800,000</string>
+    <string name="apt2">56 King Street: $900,000</string>
+    <string name="apt2_price">$900,000</string>
+    <string name="det1">89 College Street: $1,100,000</string>
+    <string name="det1_price">$1,100,000</string>
+    <string name="det2">389 Progress Ave: $650,000</string>
+    <string name="det2_price">$650,000</string>
+    <string name="semidet1">67 Gerrard Street: $700,000</string>
+    <string name="semidet1_price">$700,000</string>
+    <string name="semidet2">23 Dundas Street: $950,000</string>
+    <string name="semidet2_price">$950,000</string>
+    <string name="condo1">890 Yonge Street: $1,300,000</string>
+    <string name="condo1_price">$1,300,000</string>
+    <string name="condo2">34 Victoria Street: $1,250,000</string>
+    <string name="condo2_price">$1,250,000</string>
+    <string name="townhouse1">53 Shuter Street: $840,000</string>
+    <string name="townhouse1_price">$840,000</string>
+    <string name="townhouse2">34 Parlament Street: $1,150,000</string>
+    <string name="townhouse2_price">$1,150,000</string>
+    <string name="select_other">You can go back and select other types of homes</string>
+    <string name="no_options">You did not select any options. Go back and select</string>
+
+</resources>

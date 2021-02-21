@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.LeaseOrRentHome">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LeaseOrRentHome"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.LeaseOrRentHome.Townhouse"></activity>
+        <activity android:name="com.example.LeaseOrRentHome.Condo" />
+        <activity android:name="com.example.LeaseOrRentHome.SemiDetached" />
+        <activity android:name="com.example.LeaseOrRentHome.DetachedHome" />
+        <activity android:name="com.example.LeaseOrRentHome.Apartment" />
+        <activity android:name="com.example.LeaseOrRentHome.UserInfo" />
+        <activity android:name="com.example.LeaseOrRentHome.PaymentOptions" />
+        <activity android:name="com.example.LeaseOrRentHome.Checkout" />
+        <activity android:name="com.example.LeaseOrRentHome.HomeTypes" />
+        <activity android:name="com.example.LeaseOrRentHome.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

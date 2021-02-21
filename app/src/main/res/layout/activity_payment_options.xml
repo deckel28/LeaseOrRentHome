@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".PaymentOptions">
+
+    <TextView
+        android:id="@+id/choose_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/payment_option"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/payment_options"
+        android:layout_width="275dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_label">
+
+        <RadioButton
+            android:id="@+id/radioButtonCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit card"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDebit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Debit card"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onClickPaymentChoice"
+        android:text="Choose"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_options" />
+</androidx.constraintlayout.widget.ConstraintLayout>
